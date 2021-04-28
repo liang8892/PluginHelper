@@ -4,6 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>D:\Lvxl\Project_2021\Test\PluginHelper\Test.CMD\bin\Debug\net5.0\plugins\</OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Interface\Plugin.Interface.csproj" />
   </ItemGroup>
