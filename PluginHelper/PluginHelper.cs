@@ -22,7 +22,6 @@ namespace PluginHelper
                 if (!string.IsNullOrEmpty(temp.Item1) && temp.Item2 != null && temp.Item2.Count > 0 && !types.Keys.Contains(temp.Item1))
                     types.Add(temp.Item1, temp.Item2);
             }
-            Console.WriteLine("OK!");
             return types;
         }
 
